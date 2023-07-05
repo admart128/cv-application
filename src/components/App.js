@@ -1,10 +1,15 @@
 import React, { Component } from 'react';
+import General from './General';
 
 class App extends Component {
+  constructor(props) {
+    super(props);
+  }
+
   render() {
     return (
         <div>
-            <h1>Hello World!</h1>
+            <General />
         </div>
     )
   }
