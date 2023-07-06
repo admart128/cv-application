@@ -27,23 +27,21 @@ class General extends Component {
                 <h1>
                     General Information
                 </h1>
-                <label>
-                    First Name:
-                    <input type="text" name="firstName" value={this.state.firstName} onChange={this.handleChange} />
-                </label>
-                <label>
-                    Last Name:
-                    <input type="text" name="lastName" value={this.state.lastName} onChange={this.handleChange} />
-                </label>
-                <label>
-                    Email:
-                    <input type="text" name="email" value={this.state.email} onChange={this.handleChange} />
-                </label>
-                <label>
-                    Phone Number:
-                    <input type="text" name="phoneNumber" value={this.state.phoneNumber} onChange={this.handleChange} />
-                </label>
-                <input type="submit" value="Submit" />
+
+                <label htmlFor="firstName">First Name:</label>
+                <input id="firstName" type="text" name="firstName" value={this.state.firstName} onChange={this.handleChange} />
+                
+                <label htmlFor="lastName">Last Name:</label>
+                <input id="lastName" type="text" name="lastName" value={this.state.lastName} onChange={this.handleChange} />
+                
+                <label htmlFor="email">Email:</label>
+                <input id="email" type="text" name="email" value={this.state.email} onChange={this.handleChange} />
+                
+                <label htmlFor="phoneNumber">Phone Number:</label>
+                <input id="phoneNumber" type="text" name="phoneNumber" value={this.state.phoneNumber} onChange={this.handleChange} />
+                
+                <input type="submit" value="submit" />
+            
             </form>
         );
     }
