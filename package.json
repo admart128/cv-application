@@ -6,6 +6,7 @@
   "scripts": {
     "start": "webpack-dev-server --mode development --open --hot"
   },
+  "homepage": "https://admart128.github.io/cv-application/",
   "keywords": [],
   "author": "",
   "license": "ISC",
