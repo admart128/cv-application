@@ -53,7 +53,7 @@ class General extends Component {
                         <p>First Name: {this.state.firstName}</p>
                         <p>Last Name: {this.state.lastName}</p>
                         <p>Email: {this.state.email}</p>
-                        <p>Phone Number:d {this.state.email}</p>
+                        <p>Phone Number: {this.state.email}</p>
                     </div>
                 )}
             </div>
