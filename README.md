@@ -1,1 +1,3 @@
-# cv-application
+🔰 Practice
+
+Early React practice.
